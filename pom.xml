@@ -30,15 +30,14 @@
     <build>
         <plugins>
             <plugin>
+                <artifactId>maven-plugin-plugin</artifactId>
+                <version>3.4</version>
+            </plugin>
+            <plugin>
                 <groupId>com.mycila</groupId>
                 <artifactId>license-maven-plugin</artifactId>
                 <configuration>
                     <header>com/mycila/maven/plugin/license/templates/GPL-3.txt</header>
-                    <excludes>
-                        <exclude>pom.xml</exclude>
-                        <exclude>src/test/resources/**</exclude>
-                        <exclude>src/main/resources/**</exclude>
-                    </excludes>
                 </configuration>
                 <executions>
                     <execution>
