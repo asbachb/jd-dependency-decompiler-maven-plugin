@@ -4,10 +4,10 @@ This maven plugin enables you to decompile your dependencies when there is no so
 
 ```xml
 <pluginRepositories>
-  <pluginRepository>
-    <id>github-asbachb-releases</id>
-    <url>https://raw.github.com/asbachb/mvn-repo/master/releases</url>   
-  </pluginRepository>
+    <pluginRepository>
+      <id>github-asbachb-releases</id>
+      <url>https://raw.github.com/asbachb/mvn-repo/master/releases</url>   
+    </pluginRepository>
 </pluginRepositories>
 ```
 
