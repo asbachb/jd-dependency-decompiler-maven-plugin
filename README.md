@@ -1,6 +1,6 @@
 # jd-dependency-decompiler-maven-plugin
 
-This maven plugin enables you to decompile your dependencies when there is no source download available. In order to use this plugin you to declare following into your projects pom.xml:
+This maven plugin enables you to decompile your dependencies when there is no source download available. In order to use this plugin you need to declare following into your projects pom.xml:
 
 ```xml
 <pluginRepositories>
