@@ -36,7 +36,6 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.HashMap;
 import java.util.Map;
 import javax.inject.Named;
-import javax.inject.Singleton;
 import jd.core.Decompiler;
 import jd.core.process.DecompilerImpl;
 import org.slf4j.Logger;
