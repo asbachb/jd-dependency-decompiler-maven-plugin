@@ -21,7 +21,7 @@ import org.apache.maven.plugins.annotations.Mojo;
 
 /**
  *
- * @author <a href="mailto:benjamin.asbach@gmail.com">Benjamin Asbach, 2015</a>
+ * @author <a href="mailto:benjamin.asbach@exxeta.com">Benjamin Asbach, 2015</a>
  */
 @Mojo(name = "dependency:sources", defaultPhase = LifecyclePhase.GENERATE_SOURCES, threadSafe = true)
 public class DependencyDecompilerMojo extends com.exxeta.oses.maven.plugin.decompiler.DependencyDecompilerMojo{
