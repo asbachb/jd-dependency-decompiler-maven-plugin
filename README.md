@@ -14,13 +14,13 @@ This maven plugin enables you to decompile your dependencies when there is no so
 In order to generate (decompile) or download all of your project dependencies use following command:
 
 ```
-mvn com.exxeta.oses:jd-dependency-decompiler-maven-plugin:1.0.0:dependency:sources
+mvn com.exxeta.oses:jd-dependency-decompiler-maven-plugin:1.1.0:dependency:sources
 ```
 
 If you want to decompile only a specific dependency you might use the parameters artifactIdRegex, groupIdRegex or versionRegex
 
 ```
-mvn com.exxeta.oses:jd-dependency-decompiler-maven-plugin:1.0.0:dependency:sources -DartifactIdRegex="com\.exxeta.*"
+mvn com.exxeta.oses:jd-dependency-decompiler-maven-plugin:1.1.0:dependency:sources -DartifactIdRegex="com\.exxeta.*"
 ```
 
 The build is verified with apache maven 3.3.3
